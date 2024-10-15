@@ -5,7 +5,7 @@ function sayHello(firstName, hour){
 // On déclare la variable message 
     let message = "Bonjour"
 // Si hour est supérieur ou égale à 18
-    if (hour >= 23) {
+    if (hour >= 18) {
         message = `Bonsoir ${firstName} !` // Bonsoir
     }
 // Sinon

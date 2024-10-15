@@ -5,7 +5,7 @@ function sayHello(firstName, hour){
 // On déclare la variable message 
     let message = "Bonjour"
 // Si hour est supérieur ou égale à 18
-    if (hour >= 18) {
+    if (hour >= 23) {
         message = `Bonsoir ${firstName} !` // Bonsoir
     }
 // Sinon
@@ -15,5 +15,8 @@ function sayHello(firstName, hour){
 
     document.querySelector('h1').innerText = message
 }
+// On récupere l'heure actuelle
+let currentHour = new Date().getHours()
+
 // Appel de la fonction sayHello(firsName, hour)
-sayHello(firsName, 22)
+sayHello(firsName, currentHour)

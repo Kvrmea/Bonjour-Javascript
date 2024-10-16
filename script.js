@@ -1,5 +1,5 @@
 // On utilise la fonction prompt() pour choisir son prénom qui sera remplacer de firstName
-let firsName = window.prompt("Quel est votre prénom")
+let userName = window.prompt("Quel est votre prénom")
 
 function sayHello(firstName, hour){
 // On déclare la variable message 
@@ -19,4 +19,4 @@ function sayHello(firstName, hour){
 let currentHour = new Date().getHours()
 
 // Appel de la fonction sayHello(firsName, hour)
-sayHello(firsName, currentHour)
+sayHello(userName, currentHour)
